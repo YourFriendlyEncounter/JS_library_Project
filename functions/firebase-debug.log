@@ -1,0 +1,33 @@
+[debug] [2020-04-10T14:14:02.159Z] ----------------------------------------------------------------------
+[debug] [2020-04-10T14:14:02.162Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aspire V3\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2020-04-10T14:14:02.163Z] CLI Version:   8.0.2
+[debug] [2020-04-10T14:14:02.163Z] Platform:      win32
+[debug] [2020-04-10T14:14:02.163Z] Node Version:  v12.16.0
+[debug] [2020-04-10T14:14:02.166Z] Time:          Fri Apr 10 2020 19:14:02 GMT+0500 (GMT+05:00)
+[debug] [2020-04-10T14:14:02.166Z] ----------------------------------------------------------------------
+[debug] [2020-04-10T14:14:02.166Z] 
+[debug] [2020-04-10T14:14:02.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-10T14:14:02.182Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[debug] [2020-04-10T14:14:03.329Z] [hub] writing locator at C:\Users\ASPIRE~1\AppData\Local\Temp\hub-library-930a7.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Aspire V3\js_library\functions" for Cloud Functions...
+[debug] [2020-04-10T14:14:04.823Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-04-10T14:14:04.823Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-04-10T14:14:04.823Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-04-10T14:14:04.824Z] [worker-~diagnostic~-9758fa08-da51-46b5-88f5-b4252fcf828a]: Assigning socketPath: \\?\pipe\C:\Users\Aspire V3\js_library\functions\6020 
+[debug] [2020-04-10T14:14:04.824Z] [worker-~diagnostic~-9758fa08-da51-46b5-88f5-b4252fcf828a]: BUSY 
+[debug] [2020-04-10T14:14:05.445Z] [runtime-status] [6020] Functions runtime initialized. {"cwd":"C:\\Users\\Aspire V3\\js_library\\functions","node_version":"12.16.0"} 
+[debug] [2020-04-10T14:14:05.451Z] [runtime-status] [6020] Disabled runtime features: undefined 
+[debug] [2020-04-10T14:14:05.459Z] [runtime-status] [6020] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-04-10T14:14:05.461Z] [runtime-status] [6020] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-10T14:14:05.464Z] [runtime-status] [6020] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-04-10T14:14:05.541Z] [runtime-status] [6020] Checked functions.config() {"config":{}} 
+[debug] [2020-04-10T14:14:05.543Z] [runtime-status] [6020] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-10T14:14:05.547Z] [runtime-status] [6020] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-04-10T14:14:05.548Z] [runtime-status] [6020] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-10T14:14:05.549Z] [runtime-status] [6020] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\Users\\Aspire V3\\js_library\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[info] +  emulators: All emulators started, it is now safe to connect.
+[debug] [2020-04-10T14:14:05.554Z] [worker-~diagnostic~-9758fa08-da51-46b5-88f5-b4252fcf828a]: IDLE 
